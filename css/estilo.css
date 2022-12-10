@@ -1,0 +1,175 @@
+.container{
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-image: url(../img/degrade-azul.jpg);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.div1{
+	background-image: url(../img/degrade-verde.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border-radius: 5%;
+	justify-content: space-between;
+	display: flex;
+	width: 100%;
+	height: 10vh;
+}
+.ima1{
+	width: 100%;
+	height: 10vh;
+}
+.jogos{
+	background-image: url(../img/degrade-amarelo.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.ima2{
+	margin-top: 30px;
+	width: 30%;
+	height:4vh;
+}
+.ima3{
+	width: 40%;
+	height: 100%;
+	border-radius: 5%;
+}
+.a{
+	background-image: url(../img/degrade-verde.jpg);
+	background-size: 1293px 97px;
+	background-repeat: no-repeat;
+	border-radius: 5%;
+}
+.b{
+	background-image: url(../img/degrade-verde-claro.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	justify-content: space-between;
+	display: flex;
+	width: 10%;
+	height: 10vh;
+}
+.c{
+	width: 100%;
+	height: 50vh;
+}
+.jogos{
+	padding: 18px;
+	display: flex;
+	justify-content: center;
+}
+.d{
+	justify-content: space-around;
+	margin-top: 20px;
+	display: flex;
+	width: 100%;
+	height: 25vh;
+}
+.qatar{
+	border-radius: 5%;
+	width: 20%;
+	height: 15vh;
+}
+.senegal{
+	border-radius: 5%;
+	width: 20%;
+	height: 15vh;
+}
+.Netherlands{
+	border-radius: 5%;
+	width: 20%;
+	height: 15vh;
+}
+.equador{
+	border-radius: 5%;
+	width: 20%;
+	height: 15vh;
+}
+.ima4{
+	width: 100%;
+	height: 15vh;
+	border-radius: 5%;
+}
+.e{
+	width: 330px;
+	height: 50vh;
+	display: flex;
+}
+
+.ima5{
+	width: 100%;
+	border-radius: 5%;
+	height: 50vh;
+}
+.div2{
+	margin-top: 40px;
+	justify-content: space-around;
+	padding: 20px;
+    display: flex;
+    width: 100%;
+    height: 50vh;
+}
+p{
+	color:white;
+}
+a:link{
+	color:white;
+}
+a:visited{
+	color: grey;
+}
+a:hover{
+	color:aqua;
+}
+.text{
+	font-size: 25px;
+	font-family: sans-serif;
+}
+
+@media (max-width: 650px){
+	.c{
+		height: 28vh;
+	}
+	#img1{
+		display: none;
+	}
+	#img2{
+		margin-left: 38%;
+		margin-top: 50%;
+	}
+	.ima3{
+		width: 100%;
+		height: 25vh;
+		border-radius: 5%;
+	}
+	.div2{
+		display: none;
+	}
+	.d{	
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		padding: 5px;
+	}
+	.qatar{
+		width: 45%;
+		height: 15vh;
+		margin-bottom: 100px;
+		margin-left: 2px;
+	}
+	.senegal{
+		width: 45%;
+		height: 15vh;
+		margin-bottom: 100px;
+	}
+	.Netherlands{
+		width: 45%;
+		height: 15vh;
+		margin-left: 2px;
+	}
+	.equador{
+		width: 45%;
+		height: 15vh;
+	}
+}
